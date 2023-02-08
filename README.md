@@ -1,1 +1,1 @@
-# desafio-sprint2-m6
+# Desafio Python Sprint 2
