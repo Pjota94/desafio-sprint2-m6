@@ -10,22 +10,27 @@ O CNAB (Centro Nacional de Automação Bancária) é uma ferramenta padrão da F
 
 ```bash
 
-    # 1º Instale o venv
+    # 1º Faça o Clone deste repositorio
+    $ git clone git@github.com:Pjota94/desafio-sprint2-m6.git
+
+    # 2º Instale o venv
     $ python -m venv venv
 
-    # 2º Faça a ativação do venv
+    # 3º Faça a ativação do venv
     $ source venv/bin/activate
 
-    # 3º Instale os pacotes necessários para o projeto
+    # 4º Instale os pacotes necessários para o projeto
     $ pip install -r requirements.txt
 
-    # 4º Execute a migração
+    # 5º Faça uma copia do arquivo .env.example e renomeie para apenas .env, preencha os dados de acordo com os dados do seu banco.
+
+    # 6º Execute a migração
     $ python manage.py migrate
 
-    # 5º Rode o servidor
+    # 7º Rode o servidor
     $ python manage.py runserver
 
-    # 6º Abra o navegador e acesse o endereço abaixo
+    # 8º Abra o navegador e acesse o endereço abaixo
     http://127.0.0.1:8000/
 
 ```
